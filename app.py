@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Index Page"
+    return "Index Page and stuff"
 
 def extract_text_from_single_web_page(url):
     """
